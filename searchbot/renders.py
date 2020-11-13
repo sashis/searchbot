@@ -39,7 +39,7 @@ def csv_render(data, filename):
 
 
 def terminal_render(data, filename):
-    logger.debug(f'Sending results to the terminal...')
+    logger.debug('Sending results to the terminal...')
     width = len(str(len(data)))
     header = ' Результаты поиска '.center(80, '-')
     print(header)
